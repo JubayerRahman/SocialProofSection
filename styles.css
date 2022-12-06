@@ -135,14 +135,22 @@ img{
     }
     .starReview{
         width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .star{
+        padding-bottom: 10px;
     }
     .star1, .star2, .star3{
         align-items: center;
         margin-left: 0px;
-        font-size: 9px;
+        font-size: 15px;
+        text-align: center;
     }
     i{
-        font-size: 9px;
+        font-size: 15px;
     }
     .bottomSection{
         display: block;
@@ -151,6 +159,9 @@ img{
     }
     .cards{
         margin-right: 0px;
+    }
+    .id{
+        margin-bottom: 20px;
     }
     .attribution{
         text-align: center;
